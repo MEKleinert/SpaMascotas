@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/pet2.jpg);
+}
+
+header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    margin: 10px;
+    background: rgba(172, 216, 208, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 100px;
+    border: 1px solid rgba(223, 218, 218, 0.18);
+    box-sizing: content-box;
+    width: 100px;
+    margin: auto;
+}
+
+
+div {
+    background: rgba(181, 235, 226, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(55, 60, 133, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 150px;
+    border: 5px solid rgba(168, 79, 79, 0);
+    margin: 10px auto;
+    padding: auto;
+    width: 50%;
+    height: 25%;
+    text-align: center;
+    display: grid;
+    grid: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+}
+
+.nombre {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contanos {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.raza {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.peso {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicio {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#foto {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin: auto;
+}
+
+
+.contanos textarea {
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+button {
+    background-color: rgba(172, 216, 208, 1);
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    margin-left: 47em;
+    cursor: pointer;
+    width: 100px;
+}

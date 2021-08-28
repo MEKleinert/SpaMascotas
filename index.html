@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>Spa de mascotas</title>
+</head>
+
+<body>
+    <header>Completa el formulario para tu mascota</header>
+
+    <main>
+        <form method="POST">
+            <div>
+                <label class="nombre">Nombre
+                    <input type="text" id="nombre" name="nombre">
+                </label>
+                <br>
+                <label class="contanos">Contanos algo!
+                    <textarea name="caracteristicas" id="caracteristicas" cols="30" rows="10"></textarea>
+                </label>
+
+                <label class="raza">Raza
+                    <select name="raza" id="raza">
+                        <option value="Caniche">Caniche</option>
+                        <option value="Ovejero alemán">Ovejero alemán</option>
+                        <option value="Coker">Coker</option>
+                        <option value="Pug">Pug</option>
+                        <option value="Salchicha">Salchicha</option>
+                    </select>
+                </label>
+
+                <label class="peso">Peso
+                    <input type="radio" name="valor" id="valor1">3-8 kg
+                    <input type="radio" name="valor" id="valor2">8-15 kg
+                    <input type="radio" name="valor" id="valor3">15-30 kg
+                    <input type="radio" name="valor" id="valor4">30-50 kg
+                </label>
+
+                <label class="servicio">Servicio
+                    <input type="checkbox" name="valor" id="valor1">Baño
+                    <input type="checkbox" name="valor" id="valor1">Corte
+                    <input type="checkbox" name="valor" id="valor1">Corte y baño
+                </label>
+
+                <h3 id="foto">Subí una foto!</h3>
+                <!-- separando por comas el accept, podemos poner varios tipos de archibo que se pueden subir -->
+                <input type="file" name="fotito" id="foto" accept="image/*,audio/*">
+            </div>
+
+            <br>
+
+            <button id="button">Enviar</button>
+
+        </form>
+
+    </main>
+</body>
+
+</html>
